@@ -1,22 +1,22 @@
-﻿// Your code here!
-<html>
-    <head>
-    </head>
-    <body>
-        
-            function p1()
-            {
+﻿var bird = {
+    genus: "corvas",
+    species: " corvax",
+    commonName: "raven",
+    callType: "squawky",
+    quote: " Nevermore",
+    maxOffspring: 5,
+    noisy: true,
+    deadly: false
+};
 
-          
-            sum=0;
-            for(i=117;i>=11;)
-            {
-                
-                sum += i;
-                i-=8;
-                return sum;
-}
-    }
-        
-    </body>
-</html>
+var bear = {
+    genus: "ursus",
+    species: "arctos",
+    commonName: "brown bear",
+    callType: "roar",
+    quote: " ",
+    maxOffspring: 3,
+    noisy: true,
+    deadly: true
+
+};
